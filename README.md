@@ -1,6 +1,6 @@
 # node-cassandra-client
 
-node-cassandra-client is a [Node.js](http://nodejs.org) CQL driver for [Apache Cassandra](http://cassandra.apache.org) 0.8 and later.
+node-cassandra-client is a [Node.js](http://nodejs.org) CQL 2 driver for [Apache Cassandra](http://cassandra.apache.org) 0.8 and later.
 
 CQL is a query language for Apache Cassandra.  You use it in much the same way you would use SQL for a relational database.
 The Cassandra [documentation](http://www.datastax.com/docs/1.0/references/cql/index) can help you learn the syntax.
