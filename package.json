@@ -6,11 +6,12 @@
     "Tomaž Muraus <tomaz@tomaz.me>",
     "Patrick Negri <patrick@iugu.com.br>",
     "Christoph Tavan <dev@tavan.de>",
-    "Allan Carroll <allanca@gmail.com>"
+    "Allan Carroll <allanca@gmail.com>",
+    "Simon Vetter <simon.vetter@gmx.com>"
   ],
   "name": "cassandra-client",
   "description": "Node.js CQL driver for Apache Cassandra",
-  "version": "0.14.8",
+  "version": "0.15.0",
   "homepage": "http://code.google.com/a/apache-extras.org/p/cassandra-node/",
   "repository": {
     "type": "git",
