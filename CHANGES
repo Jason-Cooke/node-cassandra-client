@@ -1,3 +1,6 @@
+Changes with cassandra-client 0.15.1:
+- Use a new error type for Client timeouts
+
 Changes with cassandra-client 0.15.0:
 - Depend on thrift >= 0.9.1
 - avoid double buffer to string conversion by using buffers when reading
