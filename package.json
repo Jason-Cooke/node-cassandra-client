@@ -7,15 +7,15 @@
     "Patrick Negri <patrick@iugu.com.br>",
     "Christoph Tavan <dev@tavan.de>",
     "Allan Carroll <allanca@gmail.com>",
-    "Simon Vetter <simon.vetter@gmx.com>"
+    "Simon Vetter <simon.vetter@runbox.com>"
   ],
   "name": "cassandra-client",
   "description": "Node.js CQL driver for Apache Cassandra",
   "version": "0.15.2",
-  "homepage": "http://code.google.com/a/apache-extras.org/p/cassandra-node/",
+  "homepage": "https://github.com/racker/node-cassandra-client",
   "repository": {
     "type": "git",
-    "url": "https://code.google.com/a/apache-extras.org/p/cassandra-node/"
+    "url": "https://github.com/racker/node-cassandra-client.git"
   },
   "main": "node-cassandra-client",
   "directories": {
