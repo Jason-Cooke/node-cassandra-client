@@ -1036,7 +1036,7 @@ exports.testPooledConnectionBindError = function(test, assert) {
 
 exports.testPooledConnectionFailover = function(test, assert) {
   var hosts = ['google.com:8000', '127.0.0.1:6567', '127.0.0.1:9160', '127.0.0.2'];
-  var conn = new PooledConnection({'hosts': hosts, 'keyspace': 'Keyspace1', use_bigints: true, 'timeout': 5000});
+  var conn = new PooledConnection({'hosts': hosts, 'keyspace': 'Keyspace1', use_bigints: true, 'timeout': 10000});
 
   async.series([
     function executeQueries(callback) {
@@ -1056,7 +1056,7 @@ exports.testPooledConnectionFailover = function(test, assert) {
 exports.testLearnStepTimeout = function(test, assert) {
   var server = null;
   var hosts = ['127.0.0.1:8688', '127.0.0.1:9160'];
-  var conn = new PooledConnection({'hosts': hosts, 'keyspace': 'Keyspace1', use_bigints: true, 'timeout': 5000});
+  var conn = new PooledConnection({'hosts': hosts, 'keyspace': 'Keyspace1', use_bigints: true, 'timeout': 10000});
 
   async.series([
     function startHttpServer(callback) {
