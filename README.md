@@ -88,7 +88,7 @@ This example assumes you have strings for keys, column names and values:
 
     var Connection = require('cassandra-client').Connection;
     var con = new Connection({host:'cassandra-host', port:9160, keyspace:'Keyspace1', user:'user', pass:'password'});
-    con.connect(function(err, con) {
+    con.connect(function(err) {
       if (err) {
         // Failed to establish connection.
         throw err;
