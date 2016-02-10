@@ -150,7 +150,7 @@ if [ "`uname`" = "Linux" ] ; then
     # thread-per-client.  (Best practice is for client connections to
     # be pooled anyway.) Only do so on Linux where it is known to be
     # supported.
-    JVM_OPTS="$JVM_OPTS -Xss128k"
+    JVM_OPTS="$JVM_OPTS -Xss228k"
 fi
 
 # GC tuning options
@@ -192,4 +192,4 @@ JVM_OPTS="$JVM_OPTS -Djava.net.preferIPv4Stack=true"
 JVM_OPTS="$JVM_OPTS -Dcom.sun.management.jmxremote.port=$JMX_PORT" 
 JVM_OPTS="$JVM_OPTS -Dcom.sun.management.jmxremote.ssl=false" 
 JVM_OPTS="$JVM_OPTS -Dcom.sun.management.jmxremote.authenticate=false" 
-JVM_OPTS="$JVM_OPTS -Xss194k"
+JVM_OPTS="$JVM_OPTS -Xss228k"
