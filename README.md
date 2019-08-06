@@ -214,7 +214,7 @@ do updates.  If you're worried about losing precision, specify your numbers as s
 ### Decoding
 
 node-cassandra-client supports Cassandra `BytesType`, `IntegerType`, `LongTime` and `TimeUUIDType` out of the box.
-When dealing with numbers, the values you retreive out of rows will all be `BigInteger`s (be wary of losing precision
+When dealing with numbers, the values you retrieve out of rows will all be `BigInteger`s (be wary of losing precision
 if your numbers are bigger than 2^53--you know, like a timestamp).
 
 `BigInteger` supports many operations like add, subtract, multiply, etc., and a few others that may come in handy: shift, square, abs, etc.  Check the source if you'd like to know more.
